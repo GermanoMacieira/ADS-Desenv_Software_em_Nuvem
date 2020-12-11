@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/somatorio.css"/>
+    <title>Somatorio</title>
+</head>
+<body>
+    <h1>Algoritmo Somatorio</h1>
+    <h3>Digite um número! Será somado a ele todos os seus antecessores. </h3>
+    <h3>Exemplo: Número digitado: 3. O ressultado será o seguinte somatório: 1+2+3=6</h3>
+    
+    <form method="POST" action="/somatorio">
+        <input name="a" type="text" maxlength="9"/>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <p><%= resultado %></p>
+
+    <a href ="/">Voltar</a>
+</body>
+</html>

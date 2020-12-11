@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/primo.css"/>
+    <title>Primo</title>
+</head>
+<body>
+    <h1>Algoritmo Primo</h1>
+    <h2>Qual número deseja saber se é primo?</h2>
+    
+    <form method="POST" action="/primo">
+        <input name="a" type="text"/>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <p><%= resultado %></p>
+
+    <a href ="/">Voltar</a>
+</body>
+</html>

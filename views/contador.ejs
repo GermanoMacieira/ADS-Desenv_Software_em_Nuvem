@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/contador.css"/>
+    <title>Contador</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Algoritmo Contador</h1>
+    <h2>Digite um número a ser feito a contagem:</h2>
+    
+    <form method="POST" action="/contador">
+        <input name="a" type="text" maxlength="8"/>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <p><%= resultado %></p>
+
+    <a href ="/">Voltar</a>
+</body>
+</html>
